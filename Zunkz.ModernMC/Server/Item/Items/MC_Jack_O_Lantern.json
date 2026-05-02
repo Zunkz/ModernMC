@@ -1,0 +1,74 @@
+{
+  "TranslationProperties": {
+    "Name": "Jack o'Lantern"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/MC_Jack_O_Lantern.png",
+  "Categories": [
+    "MCModern.MC_Natural",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "Resources/oak_planks.png",
+        "Sides": "Resources/pumpkin_side.png",
+        "South": "Resources/jack_o_lantern.png",
+        "UpDown": "Resources/pumpkin_top.png"
+      }
+    ],
+    "ParticleColor": "#98743b",
+    "BlockSoundSetId": "Wood",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Dirt.png",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "FlipType": "Orthogonal",
+    "VariantRotation": "NESW"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Natural"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Life_Essence"
+      }
+    ]
+  }
+}

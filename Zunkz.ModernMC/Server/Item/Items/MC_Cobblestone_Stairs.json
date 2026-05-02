@@ -1,0 +1,148 @@
+{
+  "TranslationProperties": {
+    "Name": "Cobblestone Stairs"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Cobblestone_Stairs.png",
+  "Set": "Rock_Slate_Cobble",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Builders"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 1
+      }
+    ]
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/cobblestairs.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Supporting": {
+      "Down": [
+        {}
+      ],
+      "North": [
+        {}
+      ]
+    },
+    "ParticleColor": "#6E6D6D",
+    "State": {
+      "Definitions": {
+        "Corner_Right": {
+          "CustomModel": "Blocks/Structures/Stairs/Stairs_Corner_Right.blockymodel",
+          "HitboxType": "Stairs_Corner_Right",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ]
+          }
+        },
+        "Inverted_Corner_Right": {
+          "CustomModel": "Blocks/Structures/Stairs/Stairs_Inverted_Corner_Right.blockymodel",
+          "HitboxType": "Stairs_Inverted_Corner_Right",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ],
+            "North": [
+              {}
+            ],
+            "East": [
+              {}
+            ]
+          }
+        },
+        "Corner_Left": {
+          "CustomModel": "Blocks/Structures/Stairs/Stairs_Corner_Left.blockymodel",
+          "HitboxType": "Stairs_Corner_Left",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ]
+          }
+        },
+        "Inverted_Corner_Left": {
+          "CustomModel": "Blocks/Structures/Stairs/Stairs_Inverted_Corner_Left.blockymodel",
+          "HitboxType": "Stairs_Inverted_Corner_Left",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ],
+            "North": [
+              {}
+            ],
+            "West": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    "PlacementSettings": {
+      "RotationMode": "StairFacingPlayer"
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "Stair",
+      "Corner_Left": {
+        "State": "Corner_Left"
+      },
+      "Corner_Right": {
+        "State": "Corner_Right"
+      },
+      "Inverted_Corner_Left": {
+        "State": "Inverted_Corner_Left"
+      },
+      "Inverted_Corner_Right": {
+        "State": "Inverted_Corner_Right"
+      },
+      "Straight": {
+        "State": "default"
+      }
+    },
+    "BlockParticleSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Slate"
+    ]
+  },
+  "Parent": "Rock_Stone_Cobble_Stairs",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "MCModern.MC_Building",
+    "MCModern.MC_Main"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "Double Chest"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/MC_Chest_Double.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Dirt",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "Quantity": 2,
+        "ItemId": "MC_Chest"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#98743b",
+    "BlockSoundSetId": "Wood",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "FlipType": "Symmetric",
+    "RotationYawPlacementOffset": "Ninety",
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Use": "Open_Container"
+    },
+    "State": {
+      "Definitions": {
+        "OpenWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Open",
+          "CustomModelAnimation": "Blocks/Animations/chest_open.blockyanim"
+        },
+        "CloseWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Close",
+          "CustomModelAnimation": "Blocks/Animations/chest_close.blockyanim"
+        }
+      }
+    },
+    "BlockEntity": {
+      "Components": {
+        "ItemContainerBlock": {
+          "Capacity": 36
+        }
+      }
+    },
+    "CustomModel": "Resources/Chest/doublechest.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Chest/chest_large.png"
+      }
+    ],
+    "HitboxType": "MC_Chest_Double_BoundingBOX",
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11,
+      -18
+    ]
+  },
+  "Quality": "Developer"
+}

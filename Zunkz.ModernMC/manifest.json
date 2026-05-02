@@ -1,0 +1,21 @@
+{
+  "Group": "Zunkz",
+  "Name": "ModernMC",
+  "Version": "1.11.0",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "Zunkz",
+      "Email": "",
+      "Url": "https://zunkz.net"
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

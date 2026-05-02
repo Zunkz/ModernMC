@@ -1,0 +1,95 @@
+{
+  "TranslationProperties": {
+    "Name": "Glass"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Glass.png",
+  "Categories": [
+    "MCModern.MC_Colored",
+    "MCModern.MC_Main"
+  ],
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Deco"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Soil_Sand"
+      }
+    ],
+    "Output": [
+      {
+        "Quantity": 1,
+        "ItemId": "MC_Glass"
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Moss",
+    "Flags": {},
+    "Gathering": {
+      "Tools": [
+        {
+          "Type": "Shears"
+        }
+      ],
+      "Soft": {
+        "ItemId": "MC_Glass"
+      },
+      "UseDefaultDropWhenPlaced": false
+    },
+    "BlockParticleSetId": "Glass",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt",
+      "Dirt_Dark",
+      "Sand",
+      "Sand_White",
+      "Gravel",
+      "Wood",
+      "Moss",
+      "Grass",
+      "Mud"
+    ],
+    "ParticleColor": "#A8D0D9",
+    "BlockSoundSetId": "Glass",
+    "TransitionToTag": "Fluid=Water",
+    "Textures": [
+      {
+        "All": "Resources/glass.png"
+      }
+    ],
+    "Opacity": "Cutout",
+    "RequiresAlphaBlending": true
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "ItemLevel": 16,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

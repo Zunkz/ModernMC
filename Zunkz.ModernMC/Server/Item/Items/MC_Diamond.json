@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "Diamond"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Diamond.png",
+  "Categories": [
+    "MCModern.MC_Ingredients",
+    "MCModern.MC_Main"
+  ],
+  "Model": "Resources/helditem.blockymodel",
+  "Texture": "Resources/diamond.png",
+  "PlayerAnimationsId": "Item",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "FuelQuality": 4,
+  "IconProperties": {
+    "Scale": 1.2,
+    "Rotation": [
+      15,
+      90,
+      0
+    ],
+    "Translation": [
+      -8,
+      -10
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "DropOnDeath": true
+}

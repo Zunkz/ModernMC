@@ -1,0 +1,8 @@
+# === Items ===
+items.Temp.name = Temp
+items.Temp.desc = Temp Desc 
+# === Blocks ===
+blocks.door.name = Temp
+blocks.door.desc = WARNING - Doors currently don't have an opening animation, they can be opened but will look closed. This will be fixed in the future.
+blocks.temp.desc = WARNING - This item is unfinished.
+blocks.hammer.desc = Can be hammered!

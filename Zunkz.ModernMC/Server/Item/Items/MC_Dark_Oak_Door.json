@@ -1,0 +1,107 @@
+{
+  "TranslationProperties": {
+    "Name": "Dark Oak Door"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Dark_Oak_Door.png",
+  "Categories": [
+    "MCModern.MC_Building",
+    "MCModern.MC_Main"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/door.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/darkoakdoor.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Door",
+    "VariantRotation": "NESW",
+    "State": {
+      "Definitions": {
+        "CloseDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_In.blockyanim",
+          "IsDoor": false
+        },
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_Out.blockyanim"
+        },
+        "DoorBlocked": {},
+        "OpenDoorIn": {
+          "HitboxType": "Door_Open_In",
+          "InteractionHitboxType": "Door_Open_In_Interaction",
+          "InteractionSoundEventId": "SFX_Door_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_In.blockyanim"
+        },
+        "OpenDoorOut": {
+          "HitboxType": "Door_Open_Out",
+          "InteractionHitboxType": "Door_Open_Out_Interaction",
+          "InteractionSoundEventId": "SFX_Door_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_Out.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#5b3222",
+    "BlockSoundSetId": "Wood",
+    "IsDoor": true,
+    "Interactions": {
+      "Use": "Door"
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate"
+    }
+  },
+  "PlayerAnimationsId": "Stick",
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -27
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Village"
+    ]
+  },
+  "Scale": 0.8,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Builders"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk"
+      }
+    ]
+  }
+}

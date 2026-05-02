@@ -1,0 +1,69 @@
+{
+  "TranslationProperties": {
+    "Name": "Cyan Wool"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Cyan_Wool.png",
+  "ItemLevel": 80,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Wool"
+        ]
+      }
+    ]
+  },
+  "Categories": [
+    "MCModern.MC_Colored",
+    "MCModern.MC_Main"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Cloth",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "Resources/cyan_wool.png"
+      }
+    ],
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#169B9C"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Cloth"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Parent": "MC_White_Wool"
+}

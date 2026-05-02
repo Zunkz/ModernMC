@@ -1,0 +1,79 @@
+{
+  "TranslationProperties": {
+    "Name": "Ancient Debris"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/MC_Ancient_Debris.png",
+  "Categories": [
+    "MCModern.MC_Natural",
+    "MCModern.MC_Building",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "Breaking": {
+          "GatherType": "Rocks"
+        },
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C5C5C",
+    "BlockSoundSetId": "Stone",
+    "Aliases": [
+      "stone",
+      "stone00"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "VariantRotation": "DoublePipe",
+    "FlipType": "Orthogonal",
+    "Textures": [
+      {
+        "Sides": "Resources/Nether/ancient_debris_side.png",
+        "UpDown": "Resources/Nether/ancient_debris_top.png"
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Natural"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock"
+      }
+    ]
+  }
+}

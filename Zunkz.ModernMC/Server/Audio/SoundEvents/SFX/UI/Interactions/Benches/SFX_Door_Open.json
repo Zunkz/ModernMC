@@ -1,0 +1,14 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Door/Wooden_Door_open1.ogg",
+        "Sounds/Door/Wooden_Door_open2.ogg",
+        "Sounds/Door/Wooden_Door_open3.ogg",
+        "Sounds/Door/Wooden_Door_open4.ogg"
+      ]
+    }
+  ],
+  "Volume": 0,
+  "Parent": "SFX_Attn_Quiet"
+}

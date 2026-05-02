@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "Orange Carpet"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Orange_Carpet.png",
+  "ItemLevel": 80,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Wool"
+        ]
+      }
+    ]
+  },
+  "Categories": [
+    "MCModern.MC_Colored",
+    "MCModern.MC_Main"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Cloth",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#F87D1A",
+    "CustomModel": "Resources/carpet.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/orange_wool.png"
+      }
+    ],
+    "HitboxType": "Carpet_Hitbox",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Cloth"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Parent": "MC_White_Wool"
+}

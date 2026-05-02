@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "Loom"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/loom.png",
+  "Categories": [
+    "MCModern.MC_Functional",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "Up": "Resources/loom_top.png",
+        "Down": "Resources/loom_bottom.png",
+        "East": "Resources/loom_side.png",
+        "West": "Resources/loom_side.png",
+        "North": "Resources/loom_front.png",
+        "South": "Resources/loom_side.png"
+      }
+    ],
+    "ParticleColor": "#B8945F",
+    "BlockSoundSetId": "Wood",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "FlipType": "Orthogonal",
+    "VariantRotation": "NESW",
+    "RotationYawPlacementOffset": "OneEighty"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 1
+      }
+    ]
+  }
+}

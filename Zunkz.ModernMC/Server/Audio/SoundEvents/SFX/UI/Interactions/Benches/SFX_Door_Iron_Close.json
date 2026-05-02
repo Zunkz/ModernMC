@@ -1,0 +1,14 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Door/Iron/Iron_Door_close1.ogg",
+        "Sounds/Door/Iron/Iron_Door_close2.ogg",
+        "Sounds/Door/Iron/Iron_Door_close3.ogg",
+        "Sounds/Door/Iron/Iron_Door_close4.ogg"
+      ]
+    }
+  ],
+  "Volume": 0,
+  "Parent": "SFX_Attn_Quiet"
+}

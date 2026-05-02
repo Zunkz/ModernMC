@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "Redstone Lamp"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Redstone_Lamp.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap",
+        "Quantity": 4
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Transparent",
+    "Light": {
+      "Radius": 0,
+      "Color": "#dca"
+    },
+    "Flags": {},
+    "Gathering": {
+      "Soft": {}
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {
+          "Textures": [
+            {
+              "All": "Resources/redstone_lamp_on.png"
+            }
+          ],
+          "InteractionSoundEventId": "SFX_Click"
+        },
+        "Off": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "Light": null,
+          "Particles": null,
+          "InteractionSoundEventId": "SFX_Click",
+          "AmbientSoundEventId": null,
+          "Textures": [
+            {
+              "All": "Resources/redstone_lamp.png"
+            }
+          ]
+        }
+      }
+    },
+    "InteractionHint": "server.interactionHints.turnoff",
+    "CustomModelScale": 0.8,
+    "Textures": [
+      {
+        "All": "Resources/redstone_lamp_on.png"
+      }
+    ],
+    "ParticleColor": "#E6994A"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Categories": [
+    "MCModern.MC_Redstone"
+  ],
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -18
+    ]
+  }
+}
