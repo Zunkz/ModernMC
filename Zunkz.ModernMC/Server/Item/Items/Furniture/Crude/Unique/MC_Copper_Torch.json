@@ -14,22 +14,6 @@
     "Primary": "Root_Unarmed_Attack_Swing_Left",
     "Secondary": "Block_Secondary"
   },
-  "Recipe": {
-    "BenchRequirement": [
-      {
-        "Id": "Crafter",
-        "Categories": [
-          "Crafter_Functional"
-        ]
-      }
-    ],
-    "Input": [
-      {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 1
-      }
-    ]
-  },
   "InteractionVars": {
     "Torch_Swing_Left_Effect": "Torch_Swing_Left_Effect",
     "Torch_Swing_Right_Effect": "Torch_Swing_Right_Effect",
@@ -161,5 +145,21 @@
       "Crude"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Wood"
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 1
+      }
+    ]
+  }
 }

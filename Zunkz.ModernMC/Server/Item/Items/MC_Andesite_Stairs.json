@@ -23,7 +23,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Resources/andesite_stairs.png",
+        "Texture": "Resources/Stairs/Stones/andesite_stairs.png",
         "Weight": 1
       }
     ],

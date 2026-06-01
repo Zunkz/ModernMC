@@ -39,7 +39,7 @@
     "CustomModel": "Blocks/Structures/Stairs/Stairs.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/warpedstairs.png",
+        "Texture": "Resources/Stairs/Planks/warped_stairs.png",
         "Weight": 1
       }
     ],

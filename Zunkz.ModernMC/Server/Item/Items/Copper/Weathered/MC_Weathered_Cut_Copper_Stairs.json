@@ -23,7 +23,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Copper/Weathered/weathered_copper_stairs.png",
+        "Texture": "Resources/Stairs/Copper/weathered_copper_stairs.png",
         "Weight": 1
       }
     ],

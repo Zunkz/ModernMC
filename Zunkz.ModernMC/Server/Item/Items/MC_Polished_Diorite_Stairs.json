@@ -23,7 +23,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Resources/polished_diorite_stairs.png",
+        "Texture": "Resources/Stairs/Stones/polished_diorite_stairs.png",
         "Weight": 1
       }
     ],

@@ -23,7 +23,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Resources/granite_STAIRS.png",
+        "Texture": "Resources/Stairs/Stones/granite_stairs.png",
         "Weight": 1
       }
     ],

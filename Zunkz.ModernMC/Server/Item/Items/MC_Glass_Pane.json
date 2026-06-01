@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "Glass Pane",
+    "Description": "modernmc.blocks.temp.desc"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Glass_Pane.png",
+  "Categories": [
+    "MCModern.MC_Colored",
+    "MCModern.MC_Main"
+  ],
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "MCModern"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Soil_Sand"
+      }
+    ],
+    "Output": [
+      {
+        "Quantity": 1,
+        "ItemId": "MC_Glass"
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#A8D0D9",
+    "BlockSoundSetId": "Glass",
+    "Opacity": "Cutout",
+    "RequiresAlphaBlending": true,
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/glass.png"
+      }
+    ],
+    "CustomModel": "Resources/glass_pane.blockymodel",
+    "VariantRotation": "NESW",
+    "HitboxType": "MC_Glass_Pane_Hitbox"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemLevel": 16,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ItemSoundSetId": "ISS_Default"
+}

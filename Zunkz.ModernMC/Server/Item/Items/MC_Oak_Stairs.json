@@ -39,7 +39,7 @@
     "CustomModel": "Blocks/Structures/Stairs/Stairs.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Oak_Stairs.png",
+        "Texture": "Resources/Stairs/Planks/oak_stairs.png",
         "Weight": 1
       }
     ],

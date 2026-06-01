@@ -23,7 +23,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Nether/red_nether_brick_stairs.png",
+        "Texture": "Resources/Stairs/Stones/red_nether_brick_stairs.png",
         "Weight": 1
       }
     ],

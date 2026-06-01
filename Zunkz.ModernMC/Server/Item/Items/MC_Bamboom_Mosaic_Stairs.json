@@ -39,7 +39,7 @@
     "CustomModel": "Blocks/Structures/Stairs/Stairs.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/bamboo_mosaic_stairs.png",
+        "Texture": "Resources/Stairs/Planks/bamboo_mosaic_stairs.png",
         "Weight": 1
       }
     ],

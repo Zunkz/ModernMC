@@ -23,7 +23,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Resources/smooth_red_sandstone_Stairs.png",
+        "Texture": "Resources/Stairs/Stones/smooth_red_sandstone_Stairs.png",
         "Weight": 1
       }
     ],

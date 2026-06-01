@@ -14,30 +14,6 @@
     "Primary": "Root_Unarmed_Attack_Swing_Left",
     "Secondary": "Block_Secondary"
   },
-  "Recipe": {
-    "Input": [
-      {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 1
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Fieldcraft",
-        "Type": "Crafting",
-        "Categories": [
-          "Tools"
-        ]
-      },
-      {
-        "Id": "Workbench",
-        "Type": "Crafting",
-        "Categories": [
-          "Workbench_Survival"
-        ]
-      }
-    ]
-  },
   "InteractionVars": {
     "Torch_Swing_Left_Effect": "Torch_Swing_Left_Effect",
     "Torch_Swing_Right_Effect": "Torch_Swing_Right_Effect",
@@ -147,5 +123,21 @@
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Wood",
-  "Quality": "Developer"
+  "Quality": "Developer",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_DEV"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 1
+      }
+    ]
+  }
 }

@@ -62,7 +62,7 @@
     "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/end_stone_brick_stairs.png",
+        "Texture": "Resources/end_stone_bricks.png",
         "Weight": 1
       }
     ],

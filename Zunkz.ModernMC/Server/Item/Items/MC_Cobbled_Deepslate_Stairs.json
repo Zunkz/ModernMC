@@ -23,7 +23,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Resources/cobbled_deepslate_stairs.png",
+        "Texture": "Resources/Stairs/Stones/cobbled_deepslate_stairs.png",
         "Weight": 1
       }
     ],

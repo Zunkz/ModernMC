@@ -23,7 +23,7 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Resources/prismarine_brick_Stairs.png",
+        "Texture": "Resources/Stairs/Stones/prismarine_brick_Stairs.png",
         "Weight": 1
       }
     ],

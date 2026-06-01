@@ -29,15 +29,9 @@
     "Group": "Moss",
     "Flags": {},
     "Gathering": {
-      "Tools": [
-        {
-          "Type": "Shears"
-        }
-      ],
-      "Soft": {
-        "DropList": "Plant_Moss_Block_Green"
-      },
-      "UseDefaultDropWhenPlaced": true
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
     },
     "BlockParticleSetId": "Leaves",
     "TransitionToGroups": [

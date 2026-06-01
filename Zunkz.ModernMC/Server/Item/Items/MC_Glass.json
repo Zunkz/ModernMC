@@ -35,15 +35,9 @@
     "Group": "Moss",
     "Flags": {},
     "Gathering": {
-      "Tools": [
-        {
-          "Type": "Shears"
-        }
-      ],
-      "Soft": {
-        "ItemId": "MC_Glass"
-      },
-      "UseDefaultDropWhenPlaced": false
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
     },
     "BlockParticleSetId": "Glass",
     "TransitionToGroups": [
