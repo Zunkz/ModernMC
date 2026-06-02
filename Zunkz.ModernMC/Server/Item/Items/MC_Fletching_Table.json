@@ -1,0 +1,75 @@
+{
+  "TranslationProperties": {
+    "Name": "Fletching Table"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/MC_Fletching_Table.png",
+  "Categories": [
+    "MCModern.MC_Functional",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "North": "Resources/fletching_table_front.png",
+        "Up": "Resources/fletching_table_top.png",
+        "Down": "Resources/birch_planks.png",
+        "West": "Resources/fletching_table_side.png",
+        "South": "Resources/fletching_table_front.png",
+        "East": "Resources/fletching_table_side.png"
+      }
+    ],
+    "ParticleColor": "#D7C185",
+    "BlockSoundSetId": "Wood",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Dirt.png",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "RotationYawPlacementOffset": "None"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      }
+    ]
+  }
+}

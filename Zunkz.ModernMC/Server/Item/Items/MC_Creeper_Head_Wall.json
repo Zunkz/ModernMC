@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "Creeper Head - Wall"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/MC_Creeper_Head.png",
+  "Categories": [
+    "MCModern.MC_Functional",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "MC_Creeper_Head"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#4AC63A",
+    "BlockSoundSetId": "Wood",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Dirt.png",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "FlipType": "Orthogonal",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Skulls/creeper.png"
+      }
+    ],
+    "CustomModel": "Resources/Chest/skull_wall.blockymodel",
+    "VariantRotation": "NESW",
+    "RotationYawPlacementOffset": "None",
+    "HitboxType": "Skull_Wall_Hitbox"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Quality": "Developer"
+}

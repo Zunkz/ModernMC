@@ -1,0 +1,90 @@
+{
+  "TranslationProperties": {
+    "Name": "Warped Wart Block"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Warped_Wart_Block.png",
+  "Categories": [
+    "MCModern.MC_Natural",
+    "MCModern.MC_Main"
+  ],
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Plant_Moss_Green",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Moss",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Flower",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt",
+      "Dirt_Dark",
+      "Sand",
+      "Sand_White",
+      "Gravel",
+      "Wood",
+      "Moss",
+      "Grass",
+      "Mud"
+    ],
+    "ParticleColor": "#E67DB5",
+    "BlockSoundSetId": "Leaves",
+    "TransitionToTag": "Fluid=Water",
+    "Textures": [
+      {
+        "All": "Resources/warped_wart_block.png"
+      }
+    ],
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": true
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "ItemLevel": 16,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

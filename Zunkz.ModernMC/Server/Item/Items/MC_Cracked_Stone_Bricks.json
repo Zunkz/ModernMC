@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "Cracked Stone Bricks"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/MC_Cracked_Stone_Bricks.png",
+  "Categories": [
+    "MCModern.MC_Building",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#737055",
+    "BlockSoundSetId": "Stone",
+    "Aliases": [
+      "stone",
+      "stone00"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Textures": [
+      {
+        "All": "Resources/cracked_stone_bricks.png"
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Builders"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 1
+      }
+    ]
+  }
+}

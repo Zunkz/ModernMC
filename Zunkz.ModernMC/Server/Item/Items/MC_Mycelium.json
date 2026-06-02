@@ -1,0 +1,74 @@
+{
+  "TranslationProperties": {
+    "Name": "Mycelium",
+    "Description": "modernmc.blocks.hammer.desc"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/MC_Mycelium.png",
+  "Categories": [
+    "MCModern.MC_Natural",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "ItemId": "MC_Dirt"
+      }
+    },
+    "BlockParticleSetId": "Dirt",
+    "Textures": [
+      {
+        "Sides": "Resources/mycelium_side.png",
+        "Up": "Resources/mycelium_top.png",
+        "Down": "Resources/dirt.png"
+      }
+    ],
+    "ParticleColor": "#98743b",
+    "BlockSoundSetId": "Dirt",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Soil"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Natural"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Soils"
+      }
+    ]
+  }
+}

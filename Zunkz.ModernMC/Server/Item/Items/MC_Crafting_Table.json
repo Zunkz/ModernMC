@@ -1,0 +1,172 @@
+{
+  "TranslationProperties": {
+    "Name": "Crafting Table"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/MC_Crafting_Table.png",
+  "Categories": [
+    "MCModern.MC_Functional",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "Up": "Resources/crafting_table_top.png",
+        "North": "Resources/crafting_table_side.png",
+        "South": "Resources/crafting_table_front.png",
+        "West": "Resources/crafting_table_side.png",
+        "East": "Resources/crafting_table_front.png",
+        "Down": "Resources/oak_planks.png"
+      }
+    ],
+    "ParticleColor": "#98743b",
+    "BlockSoundSetId": "Wood",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Dirt.png",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "FlipType": "Orthogonal",
+    "VariantRotation": "NESW",
+    "RotationYawPlacementOffset": "None",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "Builders",
+          "Icon": "Icons/CraftingCategories/Bricks.png",
+          "Name": "Building Blocks"
+        },
+        {
+          "Id": "Crafter_Natural",
+          "Icon": "Icons/CraftingCategories/MC_Grass_Block.png",
+          "Name": "Natural Blocks"
+        },
+        {
+          "Id": "Crafter_Wool",
+          "Name": "Colored Blocks",
+          "Icon": "Icons/CraftingCategories/Wool.png"
+        },
+        {
+          "Id": "Crafter_Deco",
+          "Name": "Decoration",
+          "Icon": "Icons/CraftingCategories/MC_Bookshelf.png"
+        },
+        {
+          "Id": "Crafter_Functional",
+          "Name": "Functional",
+          "Icon": "Icons/CraftingCategories/sign.png"
+        },
+        {
+          "Id": "MCModern",
+          "Icon": "Icons/CraftingCategories/modernmc.png",
+          "Name": "Work-In-Progress"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Crafter_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "Crafter"
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
+        },
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/Workbench2.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Workbench2_Texture.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench2",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench2_Crafting.blockyanim"
+              }
+            }
+          }
+        },
+        "Tier3": {
+          "CustomModel": "Blocks/Benches/Workbench3.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Workbench3_Texture.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench3",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
+              }
+            }
+          }
+        }
+      }
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      }
+    ]
+  }
+}

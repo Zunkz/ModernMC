@@ -1,0 +1,73 @@
+{
+  "TranslationProperties": {
+    "Name": "Stripped Dark Oak Log",
+    "Description": "modernmc.blocks.hammer.desc"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/MC_Stripped_Dark_Oak_Log.png",
+  "Categories": [
+    "MCModern.MC_Building",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "Sides": "Resources/stripped_dark_oak_log.png",
+        "UpDown": "Resources/stripped_dark_oak_log_top.png"
+      }
+    ],
+    "ParticleColor": "#98743b",
+    "BlockSoundSetId": "Wood",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Dirt.png",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "VariantRotation": "DoublePipe",
+    "RotationYawPlacementOffset": "OneEighty"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Builders"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 1
+      }
+    ]
+  }
+}

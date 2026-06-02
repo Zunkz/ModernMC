@@ -1,0 +1,70 @@
+{
+  "TranslationProperties": {
+    "Name": "Vines"
+  },
+  "Parent": "Plant_Vine",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Natural"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence"
+      }
+    ]
+  },
+  "BlockType": {
+    "CustomModel": "Blocks/Foliage/Plants/Liana.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/vine.png",
+        "Weight": 2
+      }
+    ],
+    "Opacity": "Cutout",
+    "Group": "Plant",
+    "BlockParticleSetId": "Grass",
+    "Supporting": {
+      "Down": [
+        {
+          "FaceType": "Vines"
+        }
+      ]
+    },
+    "ParticleColor": "#3e7234",
+    "Tint": [
+      "#2ec75e"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/MC_VIne.png",
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Vine"
+    ]
+  },
+  "ItemLevel": 42,
+  "Categories": [
+    "MCModern.MC_Main",
+    "MCModern.MC_Natural"
+  ]
+}

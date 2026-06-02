@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Door/Copper/Copper_Door_toggle1.ogg",
+        "Sounds/Door/Copper/Copper_Door_toggle2.ogg",
+        "Sounds/Door/Copper/Copper_Door_toggle3.ogg"
+      ]
+    }
+  ],
+  "Volume": 5,
+  "Parent": "SFX_Attn_Quiet"
+}

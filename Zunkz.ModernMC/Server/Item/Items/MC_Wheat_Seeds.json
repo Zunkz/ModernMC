@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "Wheat Seeds"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Wheat_Seeds.png",
+  "Categories": [
+    "MCModern.MC_Food",
+    "MCModern.MC_Main"
+  ],
+  "Model": "Resources/helditem.blockymodel",
+  "Texture": "Resources/wheat_seeds.png",
+  "PlayerAnimationsId": "Item",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "FuelQuality": 4,
+  "IconProperties": {
+    "Scale": 1.21,
+    "Rotation": [
+      67,
+      330,
+      0
+    ],
+    "Translation": [
+      1.3,
+      -1
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "DropOnDeath": true
+}

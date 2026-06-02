@@ -1,0 +1,74 @@
+{
+  "TranslationProperties": {
+    "Name": "Cyan Concrete Powder"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/MC_Cyan_Concrete_Powder.png",
+  "Categories": [
+    "MCModern.MC_Colored",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils"
+      }
+    },
+    "BlockParticleSetId": "Sand",
+    "Textures": [
+      {
+        "All": "Resources/Concrete/cyan_concrete_powder.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#ffffff",
+    "BlockSoundSetId": "Sand",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Wool"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Soils"
+      }
+    ]
+  }
+}
