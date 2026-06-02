@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "Furrest Token"
+  },
+  "Categories": [
+    "FurrestCategory.currency"
+  ],
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Resources/Items/FlatItem.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Items/Tokens/FurToken.png",
+        "Weight": 0
+      }
+    ],
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "CustomModelScale": 0.8
+  },
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 2.1,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -7
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Fur_Token.png",
+  "Scale": 1.5,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "DropOnDeath": false,
+  "Quality": "Currency",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "FurBench",
+        "Type": "Crafting",
+        "Categories": [
+          "TODO"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      }
+    ],
+    "TimeSeconds": 10
+  }
+}

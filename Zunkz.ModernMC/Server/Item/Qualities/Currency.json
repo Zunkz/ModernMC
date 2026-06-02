@@ -1,0 +1,12 @@
+{
+  "QualityValue": 10,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipCoin.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipFurCoin.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotDeveloper.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/slotcurrency.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/slotcurrency.png",
+  "TextColor": "#ffffff",
+  "LocalizationKey": "Currency",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true
+}

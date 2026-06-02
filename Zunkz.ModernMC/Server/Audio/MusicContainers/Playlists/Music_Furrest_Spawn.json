@@ -1,0 +1,17 @@
+{
+  "Type": "Random",
+  "AudioCategory": "AudioCat_Music_In_Game",
+  "Mode": "Random",
+  "LoopCount": 1,
+  "AvoidRepeatCount": 0,
+  "Children": [
+    {
+      "Type": "SingleTrack",
+      "Parent": "Track_Spawn",
+      "Volume": 1,
+      "AudioCategory": "AudioCat_Music_In_Game"
+    }
+  ],
+  "TransitionType": "Immediate",
+  "Volume": -12
+}

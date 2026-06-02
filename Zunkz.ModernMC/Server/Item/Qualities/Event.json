@@ -1,0 +1,12 @@
+{
+  "QualityValue": 10,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipEvent.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipEventArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/slotevent.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/slotevent.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/slotevent.png",
+  "TextColor": "#ffffff",
+  "LocalizationKey": "Event",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true
+}

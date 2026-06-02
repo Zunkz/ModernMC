@@ -1,0 +1,69 @@
+{
+  "TranslationProperties": {
+    "Name": "Spawn Music Block"
+  },
+  "Icon": "Icons/ItemsGenerated/Rock_Ice_Wet.png",
+  "Categories": [
+    "FurrestCategory.blocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Ice",
+    "Flags": {},
+    "CubeShadingMode": "Standard",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": false,
+    "Tint": [
+      "#00ff3c"
+    ],
+    "Textures": [
+      {
+        "All": "Blocks/glass.png"
+      }
+    ],
+    "Looping": true
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Ice"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "TimeSeconds": 2,
+    "RequiredMemoriesLevel": 1,
+    "Input": [
+      {
+        "ItemId": "Rock_Ice_Permafrost",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "Quality": "Furrest_Dev"
+}

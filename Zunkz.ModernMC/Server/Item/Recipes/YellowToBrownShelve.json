@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "Plant_Crop_Mushroom_Shelve_Yellow",
+      "Quantity": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Plant_Crop_Mushroom_Shelve_Brown",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Plant_Crop_Mushroom_Shelve_Brown",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Id": "FurBench",
+      "Categories": [
+        "FurBench_Misc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_Prisma_Legs.name"
+  },
+  "Parent": "Armor_Iron_Legs",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 9
+      },
+      {
+        "ItemId": "Ingredient_Leather_Prismic",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Rock_Gem_Emerald",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "FurBench",
+        "Categories": [
+          "Epic_Crafting_Prisma"
+        ]
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 78,
+  "Icon": "Icons/ItemsGenerated/Armor_Prisma_Legs.png",
+  "IconProperties": {
+    "Scale": 0.415,
+    "Rotation": [
+      22.5,
+      45.0,
+      22.5
+    ],
+    "Translation": [
+      -1.2,
+      -22.2
+    ]
+  },
+  "Model": "Items/Armors/Prisma/Legs.blockymodel",
+  "Texture": "Items/Armors/Prisma/Legs_Texture.png",
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Pants",
+      "Shoes"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.2,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.2,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 34,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 27
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.07
+        }
+      ],
+      "Charged": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.07
+        }
+      ]
+    }
+  },
+  "MaxDurability": 280,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Prisma"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5
+}

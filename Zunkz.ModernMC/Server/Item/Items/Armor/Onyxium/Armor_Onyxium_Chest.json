@@ -1,0 +1,114 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_Onyxium_Chest.name"
+  },
+  "Parent": "Armor_Iron_Chest",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "FurBench",
+        "Categories": [
+          "Epic_Crafting_Onyxium"
+        ]
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Onyxium",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Leather_Dark",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Cindercloth",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 40
+      }
+    ]
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 61,
+  "Icon": "Icons/ItemsGenerated/Armor_Onyxium_Chest.png",
+  "IconProperties": {
+    "Scale": 0.305,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -18
+    ]
+  },
+  "Model": "Items/Armors/Onyxium/Chest.blockymodel",
+  "Texture": "Items/Armors/Onyxium/Chest_Texture.png",
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Overtop"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.2,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.2,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 34,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 16
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.08
+        }
+      ],
+      "Charged": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.08
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Onyxium"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "MaxDurability": 240,
+  "DurabilityLossOnHit": 0.5
+}

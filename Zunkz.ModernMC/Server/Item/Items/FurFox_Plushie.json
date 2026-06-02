@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "furrest.blocks.furfox_plushie.name",
+    "Description": "furrest.blocks.furfox_plushie.desc"
+  },
+  "Parent": "Wood_Softwood_Planks",
+  "Icon": "Icons/ItemsGenerated/FurFox_Statue.png",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 4,
+        "ItemId": "Ingredient_Fabric_Scrap_Wool"
+      },
+      {
+        "ItemId": "Plant_Fruit_Berries_Red",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "FurBench",
+        "Type": "Crafting",
+        "Categories": [
+          "FurBench_Blocks"
+        ]
+      }
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Blackwood"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      3,
+      -13.5
+    ]
+  },
+  "Quality": "Furrest",
+  "Categories": [
+    "FurrestCategory.blocks"
+  ],
+  "RenderDeployablePreview": false,
+  "BlockType": {
+    "ParticleColor": "#f4f4f4",
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/FurBench_Texture_2.png"
+      }
+    ],
+    "CustomModel": "Blocks/FUrFox/FurFox.blockymodel",
+    "CustomModelScale": 1,
+    "VariantRotation": "NESW",
+    "Material": "Empty",
+    "HitboxType": "Food_Large",
+    "BlockParticleSetId": "Grass",
+    "BlockSoundSetId": "Cloth",
+    "Gathering": {
+      "Soft": {}
+    },
+    "CustomModelAnimation": "Blocks/FUrFox/Tilt_Head.blockyanim",
+    "Looping": true
+  }
+}

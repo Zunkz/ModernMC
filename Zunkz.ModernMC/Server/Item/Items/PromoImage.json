@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "REMOVE ME"
+  },
+  "Icon": "Icons/ItemsGenerated/RemoveMe.png",
+  "Categories": [
+    "FurrestCategory.Fur_Old"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/Blocks/Signs/1024.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/removeme.png"
+      }
+    ],
+    "CustomModelScale": 1,
+    "HitboxType": "BoundingBox1024",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Sand",
+    "ParticleColor": "#6b00ff",
+    "VariantRotation": "NESW"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Village"
+    ]
+  },
+  "Quality": "Furrest_OldItem",
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

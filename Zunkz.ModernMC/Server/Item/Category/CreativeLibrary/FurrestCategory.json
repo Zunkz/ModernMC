@@ -1,0 +1,40 @@
+{
+  "Icon": "Icons/ItemCategories/FurrestCategory.png",
+  "Order": 5,
+  "Children": [
+    {
+      "Id": "Main",
+      "Name": "All Items",
+      "Icon": "Icons/ItemCategories/Items-Tools.png"
+    },
+    {
+      "Id": "items",
+      "Icon": "Icons/ItemCategories/Blocks.png",
+      "Name": "Items"
+    },
+    {
+      "Id": "blocks",
+      "Icon": "Icons/ItemCategories/Build-Walls.png",
+      "Name": "Blocks"
+    },
+    {
+      "Id": "tools",
+      "Icon": "Icons/ItemCategories/Items-Weapons.png",
+      "Name": "Tools"
+    },
+    {
+      "Id": "currency",
+      "Icon": "Icons/ItemCategories/coins.png",
+      "Name": "Currency",
+      "InfoDisplayMode": "Tooltip"
+    },
+    {
+      "Id": "Fur_Old",
+      "Name": "Old Items",
+      "Icon": "Icons/ItemCategories/Misc.png",
+      "InfoDisplayMode": "Tooltip"
+    }
+  ],
+  "Id": "Furrest",
+  "Name": "Furrest Items"
+}

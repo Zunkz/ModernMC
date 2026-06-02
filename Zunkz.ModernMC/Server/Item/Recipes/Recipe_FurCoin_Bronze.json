@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Copper",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Id": "FurBench",
+      "Categories": [
+        "FurBench_Currency"
+      ]
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "FurCoin_Bronze",
+      "Quantity": 8
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "FurCoin_Bronze",
+    "Quantity": 8
+  }
+}

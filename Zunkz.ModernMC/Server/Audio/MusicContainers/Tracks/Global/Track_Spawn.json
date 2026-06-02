@@ -1,0 +1,8 @@
+{
+  "Type": "SingleTrack",
+  "NameTranslationKey": "Spawn Track",
+  "LoopCount": 8,
+  "Track": "Music/Spawn_Music_1.ogg",
+  "TransitionType": "Immediate",
+  "Volume": 0
+}

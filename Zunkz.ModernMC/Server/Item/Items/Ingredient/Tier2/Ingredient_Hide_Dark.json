@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Hide_Dark.name",
+    "Description": "server.items.Ingredient_Hide_Dark.description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Materials/Hide.blockymodel",
+  "Texture": "Resources/Materials/Hide_Textures/Dark.png",
+  "Quality": "Legendary",
+  "ItemLevel": 62,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.52,
+    "Translation": [
+      0,
+      -5.7
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Scale": 1.5,
+  "Icon": "Icons/ItemsGenerated/Ingredient_Hide_Dark.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Hide"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "DropOnDeath": true,
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Leather_Heavy"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Leather_Medium"
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Cindercloth",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "FurBench",
+        "Categories": [
+          "Epic_Crafting_Materials"
+        ]
+      }
+    ],
+    "TimeSeconds": 2
+  }
+}

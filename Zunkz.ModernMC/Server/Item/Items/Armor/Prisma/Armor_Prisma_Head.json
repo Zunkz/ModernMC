@@ -1,0 +1,113 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_Prisma_Head.name"
+  },
+  "Parent": "Armor_Iron_Head",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Leather_Prismic",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Rock_Gem_Emerald",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "FurBench",
+        "Categories": [
+          "Epic_Crafting_Prisma"
+        ]
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 75,
+  "Icon": "Icons/ItemsGenerated/Armor_Prisma_Head.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.35,
+    "Translation": [
+      5.4,
+      -11.4
+    ]
+  },
+  "Model": "Items/Armors/Prisma/Head.blockymodel",
+  "Texture": "Items/Armors/Prisma/Head_Texture.png",
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.17,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.17,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 29,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 18
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.06
+        }
+      ],
+      "Charged": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.06
+        }
+      ]
+    }
+  },
+  "MaxDurability": 280,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Prisma"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5
+}

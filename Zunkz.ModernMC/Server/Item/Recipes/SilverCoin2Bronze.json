@@ -1,0 +1,33 @@
+{
+  "Input": [
+    {
+      "ItemId": "FurCoin_Silver",
+      "Quantity": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "FurCoin_Bronze",
+      "Quantity": 25
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "FurCoin_Bronze",
+    "Quantity": 25
+  },
+  "BenchRequirement": [
+    {
+      "Id": "FurBench",
+      "Categories": [
+        "FurBench_Currency"
+      ]
+    },
+    {
+      "Id": "Fieldcraft",
+      "Type": "Crafting",
+      "Categories": [
+        "Tools"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinPitch": 0,
+        "MaxPitch": 0
+      },
+      "RoundRobinHistorySize": 0,
+      "Files": [
+        "Sounds/boingbounce_large.ogg"
+      ],
+      "Volume": -10
+    }
+  ],
+  "Volume": -4.0,
+  "Parent": "SFX_Attn_Quiet"
+}

@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "Furrest Logo"
+  },
+  "Icon": "Icons/ItemsGenerated/FurrestLogo.png",
+  "Categories": [
+    "FurrestCategory.blocks"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/Blocks/Signs/FurrestLogo.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Blocks/Signs/hytalelogosquare.png"
+      }
+    ],
+    "CustomModelScale": 0.7,
+    "HitboxType": "BoundingBox_FurrestLogo",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Wood",
+    "ParticleColor": "#8600ff",
+    "VariantRotation": "NESW"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -30
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Village"
+    ]
+  },
+  "Quality": "Furrest",
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "FurBench",
+        "Type": "Crafting",
+        "Categories": [
+          "FurBench_Blocks"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Tool_Shovel_Cobalt.name"
+  },
+  "Parent": "Tool_Shovel_Crude",
+  "Icon": "Icons/ItemsGenerated/Tool_Shovel_Cobalt.png",
+  "Model": "Items/Tools/Shovel/Cobalt.blockymodel",
+  "Texture": "Items/Tools/Shovel/Cobalt_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 3.5,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Tool_Shovel_Cobalt"
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Rocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.05
+      }
+    ]
+  },
+  "MaxDurability": 300,
+  "Quality": "Furrest"
+}

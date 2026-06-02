@@ -1,0 +1,71 @@
+{
+  "TranslationProperties": {
+    "Name": "furrest.blocks.furbouncepad_pink_large.name",
+    "Description": "furrest.blocks.furbouncepad.desc"
+  },
+  "Parent": "Plant_Crop_Mushroom_Shelve_Brown",
+  "Icon": "Icons/ItemsGenerated/Bouncepad_Large_Pink.png",
+  "BlockType": {
+    "CustomModel": "Resources/Blocks/Bouncepad/bouncepad_large.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Blocks/bouncepad.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#ff00f2",
+    "RandomRotation": "None",
+    "HitboxType": "Block_Bouncepad_Large",
+    "Material": "Solid",
+    "VariantRotation": "UpDown",
+    "BlockSoundSetId": "Bouncepad_Large_Sounds",
+    "Gathering": {
+      "Soft": {}
+    },
+    "Looping": false,
+    "CustomModelScale": 1,
+    "Tint": [
+      "#ff00f2"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -6
+    ]
+  },
+  "DropOnDeath": false,
+  "Quality": "Furrest",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 3,
+        "ItemId": "Plant_Crop_Mushroom_Shelve_Brown"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "FurBench",
+        "Type": "Crafting",
+        "Categories": [
+          "FurBench_Blocks"
+        ]
+      }
+    ]
+  },
+  "Categories": [
+    "FurrestCategory.blocks"
+  ],
+  "ResourceTypes": [
+    {
+      "Id": "Bouncepads"
+    }
+  ],
+  "RenderDeployablePreview": true
+}

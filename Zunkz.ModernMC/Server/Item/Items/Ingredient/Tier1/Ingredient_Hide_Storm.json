@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Hide_Storm.name",
+    "Description": "server.items.Ingredient_Hide_Storm.description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Materials/Hide.blockymodel",
+  "Texture": "Resources/Materials/Hide_Textures/Storm.png",
+  "Quality": "Epic",
+  "ItemLevel": 12,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.52,
+    "Translation": [
+      1.5,
+      -5.7
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Scale": 1.5,
+  "Icon": "Icons/ItemsGenerated/Ingredient_Hide_Storm.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Hide"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "DropOnDeath": true,
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ItemId": "Ingredient_Leather_Heavy"
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "FurBench",
+        "Categories": [
+          "Epic_Crafting_Materials"
+        ]
+      }
+    ],
+    "TimeSeconds": 2
+  }
+}

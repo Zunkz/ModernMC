@@ -1,0 +1,12 @@
+{
+  "QualityValue": 10,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipFur.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipFurArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/slotfurrest.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/slotfurrest.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/slotfurrest.png",
+  "TextColor": "#ffffff",
+  "LocalizationKey": "Furrest",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true
+}
