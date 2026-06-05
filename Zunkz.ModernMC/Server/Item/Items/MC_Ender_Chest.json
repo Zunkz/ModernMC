@@ -20,7 +20,7 @@
     },
     "Gathering": {
       "Breaking": {
-        "GatherType": "Stones"
+        "GatherType": "Rocks"
       }
     },
     "BlockParticleSetId": "Wood",
