@@ -23,8 +23,8 @@
         "GatherType": "Rocks"
       }
     },
-    "BlockParticleSetId": "Wood",
-    "ParticleColor": "#98743b",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#304347",
     "BlockSoundSetId": "Wood",
     "BlockBreakingDecalId": "Breaking_Decals_Soil",
     "FlipType": "Symmetric",
