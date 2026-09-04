@@ -1,0 +1,11 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Trapdoor/Copper_Trapdoor_Close.ogg"
+      ]
+    }
+  ],
+  "Volume": 0,
+  "Parent": "SFX_Attn_Quiet"
+}

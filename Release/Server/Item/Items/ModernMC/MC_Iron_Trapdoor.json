@@ -1,0 +1,100 @@
+{
+  "TranslationProperties": {
+    "Name": "Iron Trapdoor"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "MCModern.MC_Main",
+    "MCModern.MC_Redstone",
+    "MCModern.MC_Building"
+  ],
+  "Set": "Furniture_Crude",
+  "Icon": "Icons/ItemsGenerated/MC_Iron_Trapdoor.png",
+  "IconProperties": {
+    "Scale": 0.65,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -0.5,
+      -13
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Redstone"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 1
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "CustomModel": "Resources/trapdoor.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Trapdoors/iron_trapdoor.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "Trapdoor_Hitbox",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#D1CFCF",
+    "State": {
+      "Definitions": {
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Iron_Trapdoor_Close"
+        },
+        "OpenDoorOut": {
+          "SoundOcclusionOpacity": 0.0,
+          "HitboxType": "Trapdoor_Open_Hitbox",
+          "InteractionSoundEventId": "SFX_Iron_Trapdoor_Open",
+          "CustomModelAnimation": "Blocks/Animations/open_trapdoor.blockyanim",
+          "InteractionHint": "server.interactionHints.closeDoor"
+        }
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "SoundOcclusionOpacity": 2.0,
+    "InteractionHint": "server.interactionHints.openDoor",
+    "IsDoor": true,
+    "Interactions": {
+      "Use": "Door_Horizontal"
+    },
+    "TextureComputedColor": "#D1CFCF",
+    "CustomModelScale": 1
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Crude"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

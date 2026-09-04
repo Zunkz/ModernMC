@@ -1,0 +1,125 @@
+{
+  "TranslationProperties": {
+    "Name": "Lime Bed"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "MCModern.MC_Functional",
+    "MCModern.MC_Main",
+    "MCModern.MC_Colored"
+  ],
+  "Set": "Furniture_Ancient",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Blackwood_Deadwood",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Green",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Beds"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.295,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      7.3,
+      -2.3
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "Beds": [
+      {
+        "Offset": {
+          "X": 0,
+          "Y": 0,
+          "Z": -0.35
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Bed"
+          }
+        ]
+      },
+      "Primary": "Check_Can_Break_Respawn"
+    },
+    "CustomModel": "Resources/bed.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Beds/lime_bed.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "Bed_Hitbox",
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "ParticleColor": "#B8945F",
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "BlockEntity": {
+      "Components": {
+        "RespawnBlock": {}
+      }
+    },
+    "CustomModelScale": 2,
+    "FlipType": "Orthogonal"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "ItemLevel": 3,
+  "Icon": "Icons/ItemsGenerated/MC_Lime_Bed.png"
+}

@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "Short Grass"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/tall_grass.png",
+  "Categories": [
+    "MCModern.MC_Natural",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Group": "Dirt",
+    "Gathering": {
+      "Soft": {
+        "ItemId": "MC_Wheat_Seeds"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "ParticleColor": "#58782F",
+    "BlockSoundSetId": "Grass",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "CustomModel": "Resources/mcplant.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/short_grass.png"
+      }
+    ],
+    "Tint": [
+      "#bbff64"
+    ],
+    "HitboxType": "Block_Half",
+    "RandomRotation": "YawStep1XZ"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "RenderDeployablePreview": false,
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Natural"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Id": "MCModern",
+  "Name": "MCModern",
+  "Icon": "Icons/ItemCategories/modernmc.png",
+  "Children": [
+    {
+      "Id": "MC_Main",
+      "Name": "All Items",
+      "Icon": "Icons/ItemCategories/modernmc.png"
+    },
+    {
+      "Parent": "MCModern",
+      "Id": "MC_Building",
+      "Name": "Building Blocks",
+      "Icon": "Icons/ItemCategories/Bricks.png",
+      "Order": 1
+    },
+    {
+      "Parent": "MCModern",
+      "Id": "MC_Colored",
+      "Name": "Colored Blocks",
+      "Icon": "Icons/ItemCategories/Wool.png",
+      "Order": 2
+    },
+    {
+      "Parent": "MCModern",
+      "Id": "MC_Natural",
+      "Name": "Natural Blocks",
+      "Icon": "Icons/ItemCategories/grass.png",
+      "Order": 3
+    },
+    {
+      "Parent": "MCModern",
+      "Id": "MC_Functional",
+      "Name": "Functional Blocks",
+      "Icon": "Icons/ItemCategories/sign.png",
+      "Order": 4
+    },
+    {
+      "Parent": "MCModern",
+      "Id": "MC_Redstone",
+      "Name": "Redstone Blocks",
+      "Icon": "Icons/ItemCategories/redstone.png",
+      "Order": 5
+    },
+    {
+      "Order": 6,
+      "Id": "MC_Tools",
+      "Name": "Tools & Utilities",
+      "Icon": "Icons/ItemCategories/pickaxe.png"
+    },
+    {
+      "Id": "MC_Combat",
+      "Parent": "MCModern",
+      "Name": "Combat",
+      "Icon": "Icons/ItemCategories/sword.png",
+      "Order": 7
+    },
+    {
+      "Parent": "MCModern",
+      "Id": "MC_Food",
+      "Name": "Food & Drinks",
+      "Icon": "Icons/ItemCategories/apple.png",
+      "Order": 8
+    },
+    {
+      "Parent": "MCModern",
+      "Id": "MC_Ingredients",
+      "Name": "Ingredients",
+      "Icon": "Icons/ItemCategories/iron.png",
+      "Order": 9
+    }
+  ],
+  "Order": 9
+}

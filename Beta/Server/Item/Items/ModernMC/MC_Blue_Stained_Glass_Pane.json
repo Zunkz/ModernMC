@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "Blue Stained Glass Pane"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Blue_Stained_Glass_Pane.png",
+  "Categories": [
+    "MCModern.MC_Colored",
+    "MCModern.MC_Main"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#39498A",
+    "BlockSoundSetId": "Glass",
+    "RequiresAlphaBlending": true,
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Glass/TEMP/blue_stained_glass_.png"
+      }
+    ],
+    "CustomModel": "Resources/glass_pane.blockymodel",
+    "VariantRotation": "NESW",
+    "HitboxType": "MC_Glass_Pane_Hitbox",
+    "Opacity": "Transparent"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemLevel": 16,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ItemSoundSetId": "ISS_Default",
+  "Quality": "MC_Quality_WIP",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "MCModern"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Soil_Sand"
+      }
+    ]
+  }
+}

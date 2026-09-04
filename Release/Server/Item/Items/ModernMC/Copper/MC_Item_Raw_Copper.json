@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "Raw Copper"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Item_Raw_Copper.png",
+  "Categories": [
+    "Items.Ingredients",
+    "MCModern.MC_Main"
+  ],
+  "Model": "Resources/helditem.blockymodel",
+  "Texture": "Resources/ItemTexture/raw_copper.png",
+  "PlayerAnimationsId": "Item",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "FuelQuality": 4,
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      90,
+      0
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "DropOnDeath": true
+}

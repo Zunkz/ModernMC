@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "Pearlescent Froglight"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Pearlescent_Froglight.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap",
+        "Quantity": 4
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Solid",
+    "Light": {
+      "Radius": 1,
+      "Color": "#bad"
+    },
+    "Flags": {},
+    "Gathering": {
+      "Soft": {}
+    },
+    "BlockParticleSetId": "Crystal",
+    "BlockSoundSetId": "Glass",
+    "CustomModelScale": 0.8,
+    "Textures": [
+      {
+        "Sides": "Resources/Froglight/pearlescent_froglight_side.png",
+        "UpDown": "Resources/Froglight/pearlescent_froglight_top.png"
+      }
+    ],
+    "ParticleColor": "#FBDA74",
+    "State": {
+      "Definitions": {
+        "On": {
+          "Textures": [
+            {
+              "All": "Resources/glowstone.png"
+            }
+          ],
+          "InteractionSoundEventId": "SFX_Click"
+        }
+      }
+    },
+    "VariantRotation": "DoublePipe",
+    "CubeShadingMode": "Standard"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Categories": [
+    "MCModern.MC_Natural",
+    "MCModern.MC_Functional"
+  ],
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -18
+    ]
+  }
+}

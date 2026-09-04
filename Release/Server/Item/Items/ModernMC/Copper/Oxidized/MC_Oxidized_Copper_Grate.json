@@ -1,0 +1,74 @@
+{
+  "TranslationProperties": {
+    "Name": "Oxidized Copper Grate"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/MC_Oxidized_Copper_Grate.png",
+  "Categories": [
+    "MCModern.MC_Building",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#59B292",
+    "BlockSoundSetId": "Metal",
+    "Aliases": [
+      "stone",
+      "stone00"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Textures": [
+      {
+        "All": "Resources/Copper/Oxidized/oxidized_copper_grate.png"
+      }
+    ],
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Builders"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "TranslationProperties": {
+    "Name": "Gray Cushion"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "MCModern.MC_Main",
+    "MCModern.MC_Colored"
+  ],
+  "Set": "",
+  "Icon": "Icons/ItemsGenerated/gray_cushion.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      2.5,
+      -14.9
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Wool"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Grass",
+    "CustomModel": "Resources/cushion.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Cushon/gray_cushion.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "Cushion_Hitbox",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#2FB3A8",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Seats": [
+      {
+        "Offset": {
+          "X": 0,
+          "Y": -0.15,
+          "Z": 0
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": "Block_Seat"
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Cloth",
+    "TextureComputedColor": "#2FB3A8"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Quality": "MC_Snapshot"
+}

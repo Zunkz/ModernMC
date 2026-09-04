@@ -1,8 +1,0 @@
-# === Items ===
-items.Temp.name = Temp
-items.Temp.desc = Temp Desc 
-# === Blocks ===
-blocks.door.name = Temp
-blocks.temp.desc = WARNING - This item is unfinished.
-blocks.interact.desc = This item can be interacted with!
-blocks.hammer.desc = Can be hammered!

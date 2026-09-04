@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "Wildflowers"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Wildflowers.png",
+  "ItemLevel": 80,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Crafter",
+        "Categories": [
+          "MCModern"
+        ]
+      }
+    ]
+  },
+  "Categories": [
+    "MCModern.MC_Colored",
+    "MCModern.MC_Main"
+  ],
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Group": "Cloth",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#252529",
+    "CustomModel": "Resources/carpet.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/wildflowers.png"
+      }
+    ],
+    "HitboxType": "Carpet_Hitbox",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Opacity": "Cutout",
+    "VariantRotation": "NESW"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Cloth"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Parent": "MC_White_Wool",
+  "Quality": "MC_Quality_WIP"
+}

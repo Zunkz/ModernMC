@@ -1,0 +1,90 @@
+{
+  "TranslationProperties": {
+    "Name": "Wet Sponge"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Wet_Sponge.png",
+  "Categories": [
+    "MCModern.MC_Natural",
+    "MCModern.MC_Main"
+  ],
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Natural"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock"
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Moss",
+    "Flags": {},
+    "Gathering": {
+      "Tools": [
+        {
+          "Type": "Shears"
+        }
+      ],
+      "Soft": {
+        "DropList": "Plant_Moss_Block_Green"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "BlockParticleSetId": "Dust",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt",
+      "Dirt_Dark",
+      "Sand",
+      "Sand_White",
+      "Gravel",
+      "Wood",
+      "Moss",
+      "Grass",
+      "Mud"
+    ],
+    "ParticleColor": "#A4A53B",
+    "BlockSoundSetId": "Leaves",
+    "TransitionToTag": "Fluid=Water",
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": true,
+    "VariantRotation": "DoublePipe",
+    "Textures": [
+      {
+        "All": "Resources/wet_sponge.png"
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "ItemLevel": 16,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "Yellow Stained Glass"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Yellow_Stained_Glass.png",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Moss",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt",
+      "Dirt_Dark",
+      "Sand",
+      "Sand_White",
+      "Gravel",
+      "Wood",
+      "Moss",
+      "Grass",
+      "Mud"
+    ],
+    "ParticleColor": "#A8D0D9",
+    "BlockSoundSetId": "Glass",
+    "TransitionToTag": "Fluid=Water",
+    "Textures": [
+      {
+        "All": "Resources/Glass/TEMP/yellow_stained_glass_.png"
+      }
+    ],
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "ItemLevel": 16,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

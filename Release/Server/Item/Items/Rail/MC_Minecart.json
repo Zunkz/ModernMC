@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "Minecart"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Minecart_Item.png",
+  "Categories": [
+    "MCModern.MC_Main",
+    "MCModern.MC_Redstone"
+  ],
+  "Recipe": {
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 12
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Redstone"
+        ]
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "SpawnMinecart",
+          "Model": "MC_Minecart_Entity",
+          "Next": {
+            "Type": "ModifyInventory",
+            "RequiredGameMode": "Adventure",
+            "AdjustHeldItemQuantity": -1
+          },
+          "CartInteractions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "Mount",
+                  "AttachmentOffset": {
+                    "X": 0,
+                    "Y": 0.5,
+                    "Z": 0
+                  },
+                  "Controller": "Minecart"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Set": "Furniture_Jungle",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Items/Vehicles/minecart.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Vehicles/minecart.png",
+        "Weight": 1
+      }
+    ],
+    "Material": "Solid",
+    "VariantRotation": "NESW",
+    "BlockParticleSetId": "Metal",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "ParticleColor": "#5c646d",
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "HitboxType": "Minecart",
+    "TextureComputedColor": "#1A1D23",
+    "CustomModelScale": 2
+  },
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0.1,
+      -5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Rail"
+    ]
+  },
+  "MaxStack": 1
+}

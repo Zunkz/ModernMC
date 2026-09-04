@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "Sea Lantern"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Sea_Lantern.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap",
+        "Quantity": 4
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Transparent",
+    "Light": {
+      "Radius": 0,
+      "Color": "#cee"
+    },
+    "Flags": {},
+    "Gathering": {
+      "Soft": {}
+    },
+    "BlockParticleSetId": "Crystal",
+    "BlockSoundSetId": "Glass",
+    "CustomModelScale": 0.8,
+    "Textures": [
+      {
+        "All": "Resources/sea_lantern.png"
+      }
+    ],
+    "ParticleColor": "#D2E4DF",
+    "State": {
+      "Definitions": {
+        "On": {
+          "Textures": [
+            {
+              "All": "Resources/sea_lantern.png"
+            }
+          ],
+          "InteractionSoundEventId": "SFX_Click"
+        }
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Categories": [
+    "MCModern.MC_Natural",
+    "MCModern.MC_Functional"
+  ],
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -18
+    ]
+  }
+}

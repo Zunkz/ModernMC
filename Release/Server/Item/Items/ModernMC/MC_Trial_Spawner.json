@@ -1,0 +1,75 @@
+{
+  "TranslationProperties": {
+    "Name": "Trial Spawner"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/MC_Trial_Spawner.png",
+  "Categories": [
+    "MCModern.MC_Functional",
+    "MCModern.MC_Main"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#334E60",
+    "BlockSoundSetId": "Metal",
+    "Aliases": [
+      "stone",
+      "stone00"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Opacity": "Cutout",
+    "Textures": [
+      {
+        "Sides": "Resources/trial_spawner_side_inactive.png",
+        "Up": "Resources/trial_spawner_top_inactive.png",
+        "Down": "Resources/trial_spawner_bottom.png"
+      }
+    ],
+    "RequiresAlphaBlending": true
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 1
+      }
+    ]
+  }
+}

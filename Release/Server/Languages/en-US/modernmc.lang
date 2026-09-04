@@ -1,0 +1,9 @@
+# === Blocks ===
+blocks.door.name = Temp
+blocks.temp.desc = WARNING - This item is unfinished.
+blocks.interact.desc = This item can be interacted with!
+blocks.hammer.desc = Can be hammered!
+
+# === DEV === 
+items.temp.name = Temp
+items.temp.desc = This item should NOT be used outside of development, it will removed/changed in the future and may break things.

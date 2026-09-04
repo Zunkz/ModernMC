@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "Copper Bars"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Copper_Bars.png",
+  "Categories": [
+    "MCModern.MC_Building",
+    "MCModern.MC_Main"
+  ],
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "MCModern"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 1
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#C87456",
+    "BlockSoundSetId": "Metal",
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": false,
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Copper/Copper/copper_bars.png"
+      }
+    ],
+    "CustomModel": "Resources/glass_pane.blockymodel",
+    "VariantRotation": "NESW",
+    "HitboxType": "MC_Glass_Pane_Hitbox"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemLevel": 16,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ItemSoundSetId": "ISS_Default",
+  "Quality": "MC_Quality_WIP"
+}

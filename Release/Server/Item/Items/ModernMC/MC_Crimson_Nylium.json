@@ -1,0 +1,92 @@
+{
+  "TranslationProperties": {
+    "Name": "Crimson Nylium"
+  },
+  "Icon": "Icons/ItemsGenerated/MC_Crimson_Nylium.png",
+  "Categories": [
+    "MCModern.MC_Natural"
+  ],
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Plant_Moss_Green",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Moss",
+    "Flags": {},
+    "Gathering": {
+      "UseDefaultDropWhenPlaced": true,
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt",
+      "Dirt_Dark",
+      "Sand",
+      "Sand_White",
+      "Gravel",
+      "Wood",
+      "Moss",
+      "Grass",
+      "Mud"
+    ],
+    "ParticleColor": "#652828",
+    "BlockSoundSetId": "Stone",
+    "TransitionToTag": "Fluid=Water",
+    "Textures": [
+      {
+        "Up": "Resources/crimson_nylium.png",
+        "Sides": "Resources/crimson_nylium_side.png",
+        "Down": "Resources/netherrack.png"
+      }
+    ],
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": true
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "ItemLevel": 16,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "TranslationProperties": {
+    "Name": "Cyan Bed"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "MCModern.MC_Functional",
+    "MCModern.MC_Main",
+    "MCModern.MC_Colored"
+  ],
+  "Set": "Furniture_Ancient",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Crafter",
+        "Categories": [
+          "Crafter_Functional"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.295,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      7.3,
+      -2.3
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "Beds": [
+      {
+        "Offset": {
+          "X": 0,
+          "Y": 0,
+          "Z": -0.35
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Bed"
+          }
+        ]
+      },
+      "Primary": "Check_Can_Break_Respawn"
+    },
+    "CustomModel": "Resources/bed.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Beds/cyan_bed.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "Bed_Hitbox",
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "ParticleColor": "#B8945F",
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "BlockEntity": {
+      "Components": {
+        "RespawnBlock": {}
+      }
+    },
+    "CustomModelScale": 2,
+    "FlipType": "Orthogonal"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "ItemLevel": 3,
+  "Icon": "Icons/ItemsGenerated/MC_Cyan_Bed.png"
+}
